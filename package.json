@@ -21,15 +21,20 @@
     "type-check": "tsc"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12.0.0"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.0.3",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
+    "@types/styled-components": "^5.0.1",
+    "antd": "^4.0.3",
     "babel-plugin-styled-components": "^1.10.7",
     "classnames": "^2.2.6",
     "gatsby": "^2.10.0",
+    "gatsby-cli": "^2.11.0",
     "gatsby-image": "^2.2.1",
+    "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-canonical-urls": "^2.1.0",
     "gatsby-plugin-emotion": "^4.1.0",
     "gatsby-plugin-react-helmet": "^3.1.0",
@@ -54,7 +59,8 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "styled-components": "^5.0.1",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.2",
+    "webcamjs": "^1.0.26"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.8",

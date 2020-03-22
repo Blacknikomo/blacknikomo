@@ -2,15 +2,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    title: 'Home Keeper',
+    description: "Home Keeper is an application to authenticate users",
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
-    }
+      name: "Denis Lesnik",
+      url: "https://lesnik.me",
+    },
+    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
   },
   plugins: [
     {
@@ -19,10 +17,6 @@ module.exports = {
         name: 'content',
         path: `${__dirname}/src/content`
       }
-    },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {},
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -48,13 +42,9 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-styled-components`,
     'gatsby-transformer-json',
-    {
-      resolve: 'gatsby-plugin-canonical-urls',
-      options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
-      }
-    },
+    'gatsby-plugin-antd',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
