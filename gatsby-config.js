@@ -1,4 +1,4 @@
-module.exports = {w
+module.exports = {
   siteMetadata: {
     title: 'Home Keeper',
     description: 'Home Keeper is an application to authenticate users',
