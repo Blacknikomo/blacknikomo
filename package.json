@@ -32,7 +32,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "classnames": "^2.2.6",
     "gatsby": "^2.10.0",
-    "gatsby-cli": "^2.11.0",
+    "gatsby-cli": "^2.11.11",
     "gatsby-image": "^2.2.1",
     "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-canonical-urls": "^2.1.0",
@@ -59,8 +59,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "styled-components": "^5.0.1",
-    "typescript": "^3.5.2",
-    "webcamjs": "^1.0.26"
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.8",
