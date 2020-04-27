@@ -1,13 +1,13 @@
-import * as React from 'react';
-import styled from 'styled-components';
+import * as React from "react";
+import styled from "styled-components";
 
-import { dimensions } from '../styles/variables';
+import { dimensions } from "../styles/variables";
 
 const StyledPage = styled.div`
   display: block;
   flex: 1;
   position: relative;
-  padding: ${dimensions.containerPadding}rem ${dimensions.containerPadding * 2}rem ;
+  padding: ${dimensions.containerPadding}rem ${dimensions.containerPadding * 2}rem;
   margin-bottom: 3rem;
 `;
 

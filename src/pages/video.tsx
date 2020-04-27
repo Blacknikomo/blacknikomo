@@ -1,8 +1,8 @@
-import * as React from 'react';
-import IndexLayout from '../layouts';
-import Page from '../components/Page';
+import * as React from "react";
+import IndexLayout from "../layouts";
+import Page from "../components/Page";
 import Container from "../components/Container";
-import Camera from "../components/Camera";
+import Camera from "../components/Camera/Camera";
 
 const Video = () => {
   return (
@@ -10,7 +10,6 @@ const Video = () => {
       <Page>
         <Container>
           <Camera />
-
         </Container>
       </Page>
     </IndexLayout>

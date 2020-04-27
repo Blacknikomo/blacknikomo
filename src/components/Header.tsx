@@ -1,20 +1,21 @@
-import * as React from 'react';
-import { Link } from 'gatsby';
-import { Layout, Menu } from 'antd';
-const { Header } = Layout;
-import styled from 'styled-components';
+import * as React from "react";
+import { Link } from "gatsby";
+import { Layout, Menu } from "antd";
+import styled from "styled-components";
 
-import 'modern-normalize';
-import '../styles/normalize';
+import "modern-normalize";
+import "../styles/normalize";
+
+const { Header } = Layout;
 
 const TopHeader = styled(Header)`
   height: auto;
 `;
 
 const activeStyle = {
-  color: 'white',
-  height: '100%',
-  width: '100%',
+  color: "white",
+  height: "100%",
+  width: "100%",
 };
 
 const MenuItem = styled(Menu.Item)`
@@ -34,10 +35,14 @@ const HeaderSection: React.FC = () => {
     <TopHeader>
       <Menu theme="dark" mode="horizontal">
         <MenuItem key="1">
-          <StyledLink to={'/'} activeStyle={activeStyle}>{'Home'}</StyledLink>
+          <StyledLink to="/" activeStyle={activeStyle}>
+            Home
+          </StyledLink>
         </MenuItem>
         <MenuItem key="2">
-          <StyledLink to={'/video'} activeStyle={activeStyle}>{'Video'}</StyledLink>
+          <StyledLink to="/video" activeStyle={activeStyle}>
+            Video
+          </StyledLink>
         </MenuItem>
       </Menu>
     </TopHeader>

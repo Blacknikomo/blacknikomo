@@ -1,25 +1,25 @@
 /* eslint-disable max-len */
 
 export const colors = {
-  brand: '#663399',
-  lilac: '#9d7cbf',
-  accent: '#ffb238',
-  success: '#37b635',
-  warning: '#ec1818',
+  brand: "#663399",
+  lilac: "#9d7cbf",
+  accent: "#ffb238",
+  success: "#37b635",
+  warning: "#ec1818",
   ui: {
-    bright: '#e0d6eb',
-    light: '#f5f3f7',
-    whisper: '#fbfafc'
+    bright: "#e0d6eb",
+    light: "#f5f3f7",
+    whisper: "#fbfafc",
   },
-  code: '#fcf6f0',
+  code: "#fcf6f0",
   gray: {
-    dark: 'hsla(270, 17.119554496%, 0%, 0.92)',
-    copy: 'hsla(270, 15.797828016000002%, 0%, 0.88)',
-    calm: 'rgba(0, 0, 0, 0.54)'
+    dark: "hsla(270, 17.119554496%, 0%, 0.92)",
+    copy: "hsla(270, 15.797828016000002%, 0%, 0.88)",
+    calm: "rgba(0, 0, 0, 0.54)",
   },
-  white: '#fff',
-  black: '#000'
-}
+  white: "#fff",
+  black: "#000",
+};
 
 export const fonts = {
   sansSerif:
@@ -90,34 +90,33 @@ export const Shadows = [
   "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12)",
   "0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12)",
   "0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12)",
-  "0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
+  "0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12)",
 ];
 
-export const Transitions =
-  {
-    "easing": {
-      "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
-      "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
-      "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
-      "sharp": "cubic-bezier(0.4, 0, 0.6, 1)"
-    },
-    "duration": {
-      "standard": 300,
-      "short": 250,
-      "enteringScreen": 225,
-      "shorter": 200,
-      "leavingScreen": 195,
-      "shortest": 150,
-      "complex": 375
-    }
-  };
+export const Transitions = {
+  easing: {
+    easeInOut: "cubic-bezier(0.4, 0, 0.2, 1)",
+    easeOut: "cubic-bezier(0.0, 0, 0.2, 1)",
+    easeIn: "cubic-bezier(0.4, 0, 1, 1)",
+    sharp: "cubic-bezier(0.4, 0, 0.6, 1)",
+  },
+  duration: {
+    standard: 300,
+    short: 250,
+    enteringScreen: 225,
+    shorter: 200,
+    leavingScreen: 195,
+    shortest: 150,
+    complex: 375,
+  },
+};
 
 export const Palette = {
-  "background": {
-    "paper": "#fff",
-    "default": "#fafafa"
+  background: {
+    paper: "#fff",
+    default: "#fafafa",
   },
-  "grey": {
+  grey: {
     "50": "#fafafa",
     "100": "#f5f5f5",
     "200": "#eeeeee",
@@ -128,46 +127,46 @@ export const Palette = {
     "700": "#616161",
     "800": "#424242",
     "900": "#212121",
-    "A700": "#616161",
-    "A100": "#d5d5d5",
-    "A400": "#303030",
-    "A200": "#aaaaaa"
+    A700: "#616161",
+    A100: "#d5d5d5",
+    A400: "#303030",
+    A200: "#aaaaaa",
   },
-  "text": {
-    "primary": "rgba(0, 0, 0, 0.87)",
-    "secondary": "rgba(0, 0, 0, 0.54)",
-    "disabled": "rgba(0, 0, 0, 0.38)",
-    "hint": "rgba(0, 0, 0, 0.38)"
+  text: {
+    primary: "rgba(0, 0, 0, 0.87)",
+    secondary: "rgba(0, 0, 0, 0.54)",
+    disabled: "rgba(0, 0, 0, 0.38)",
+    hint: "rgba(0, 0, 0, 0.38)",
   },
-  "divider": "rgba(0, 0, 0, 0.12)",
-  "secondary": {
-    "main": "#2196F3",
-    "light": "rgb(77, 171, 245)",
-    "dark": "rgb(23, 105, 170)",
-    "contrastText": "#fff"
+  divider: "rgba(0, 0, 0, 0.12)",
+  secondary: {
+    main: "#2196F3",
+    light: "rgb(77, 171, 245)",
+    dark: "rgb(23, 105, 170)",
+    contrastText: "#fff",
   },
-  "common": {
-    "black": "#000",
-    "white": "#fff"
+  common: {
+    black: "#000",
+    white: "#fff",
   },
-  "error": {
-    "light": "#e57373",
-    "main": "#f44336",
-    "dark": "#d32f2f",
-    "contrastText": "#fff"
+  error: {
+    light: "#e57373",
+    main: "#f44336",
+    dark: "#d32f2f",
+    contrastText: "#fff",
   },
-  "action": {
-    "hoverOpacity": 0.08,
-    "hover": "rgba(0, 0, 0, 0.08)",
-    "selected": "rgba(0, 0, 0, 0.14)",
-    "disabledBackground": "rgba(0, 0, 0, 0.12)",
-    "disabled": "rgba(0, 0, 0, 0.26)",
-    "active": "rgba(0, 0, 0, 0.54)"
+  action: {
+    hoverOpacity: 0.08,
+    hover: "rgba(0, 0, 0, 0.08)",
+    selected: "rgba(0, 0, 0, 0.14)",
+    disabledBackground: "rgba(0, 0, 0, 0.12)",
+    disabled: "rgba(0, 0, 0, 0.26)",
+    active: "rgba(0, 0, 0, 0.54)",
   },
-  "primary": {
-    "main": "#388E3C",
-    "light": "rgb(95, 164, 99)",
-    "dark": "rgb(39, 99, 42)",
-    "contrastText": "#fff"
-  }
+  primary: {
+    main: "#388E3C",
+    light: "rgb(95, 164, 99)",
+    dark: "rgb(39, 99, 42)",
+    contrastText: "#fff",
+  },
 };
